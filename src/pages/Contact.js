@@ -152,15 +152,15 @@ export default function Contact() {
             <div>
               <h4 className="font-medium text-gray-800 mb-4">Nous suivre</h4>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-600 hover:text-pink-300 transition">
+                <button type="button" aria-label="Facebook" className="text-gray-600 hover:text-pink-300 transition">
                   <i className="fab fa-facebook-f text-xl"></i>
-                </a>
-                <a href="#" className="text-gray-600 hover:text-pink-300 transition">
+                </button>
+                <button type="button" aria-label="Instagram" className="text-gray-600 hover:text-pink-300 transition">
                   <i className="fab fa-instagram text-xl"></i>
-                </a>
-                <a href="#" className="text-gray-600 hover:text-pink-300 transition">
+                </button>
+                <button type="button" aria-label="Pinterest" className="text-gray-600 hover:text-pink-300 transition">
                   <i className="fab fa-pinterest-p text-xl"></i>
-                </a>
+                </button>
               </div>
             </div>
           </div>
